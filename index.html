@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Aryan Singh</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+   </head>
+   <body>
+      <div class="container">
+         <div class="wrapper">
+            <a href="#">
+            <img src="Aryan.jpeg" alt="">
+            </a>
+            <div class="title" style="color:black;">
+               
+               Aryan Singh
+            </div>
+            <div class="place" style="color:black;" >
+               Student
+            </div>
+         </div>
+         <div class="content" style="color:black;">
+            <p>
+               Tech Enthusiast
+            </p>
+            <div class="buttons" >
+               <a href="https://wa.me/7307665455?text=Hello%20Aryan%2C%20My%20name%20is">
+               <div class="btn">
+                  <button style="color:blue;"> Message  </button>
+               </a>
+               </div>
+            </div>
+         </div>
+         <div class="icons">
+            <li><a href="https://www.facebook.com/singharyans754"><span class="fab fa-facebook-f"></span></a></li>
+            <li><a href="https://twitter.com/singharyans754"><span class="fab fa-twitter"></span></a></li>
+            <li><a href="https://www.instagram.com/singharyans754"><span class="fab fa-instagram"></span></a></li>
+         </div>
+      </div>
+      <script>
+         const img = document.querySelector("img");
+         const icons = document.querySelector(".icons");
+         img.onclick = function(){
+           this.classList.toggle("active");
+           icons.classList.toggle("active");
+         }
+      </script>
+   </body>
+</html>
